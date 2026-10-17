@@ -19,7 +19,7 @@
                 id="title"
                 name="title"
                 value="{{ old('title') }}"
-                maxlength="255"
+                
             >
             @error('title')
                 <br><span style="color: red;">{{ $message }}</span>
